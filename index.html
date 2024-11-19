@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" onclick="showPage('home')">Kids</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" onclick="showPage('home')">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('about')">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('contact')">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Home Section -->
+<section id="home" class="page">
+    <div class="hero">
+        <div class="container">
+            <h1 class="display-4">𝙺𝚒𝚍 𝙵𝚛𝚒𝚎𝚗𝚍𝚕𝚢</h1>
+        </div>
+    </div>
+
+    <!-- Row with Three Images -->
+    <div class="container-fluid text-center">
+        <div class="row row-cols-3 py-5">
+            <div class="col">
+                <img src="./DALL·E 2024-11-08 18.10.03 - A colorful, kid-friendly website banner image featuring playful cartoon characters, friendly animals, and bright scenery. The background includes happ.webp" alt="Image" class="img-fluid">
+            </div>
+            <div class="col">
+                <img src="./DALL·E 2024-11-08 18.19.47 - A cheerful, kid-friendly website banner featuring cute cartoon children and animals in a lively outdoor park. The scene includes children and animals .webp" alt="Image" class="img-fluid">
+            </div>
+            <div class="col">
+                <img src="./DALL·E 2024-11-08 18.19.22 - A vibrant, kid-friendly website banner featuring cartoon children and animals in a playful outdoor setting. The scene includes smiling children and an.webp" alt="Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Text Section -->
+    <div class="container text-center my-4">
+        <p class="lead">
+            "𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝖪𝗂𝖽 𝖥𝗋𝗂𝖾𝗇𝖽𝗅𝗒, 𝗐𝗁𝖾𝗋𝖾 𝗂𝗆𝖺𝗀𝗂𝗇𝖺𝗍𝗂𝗈𝗇 𝖼𝗈𝗆𝖾𝗌 𝗍𝗈 𝗅𝗂𝖿𝖾! ..."
+        </p>
+    </div>
+
+    <div class="container-fluid text-center my-5">
+        <h2>𝙵𝚞𝚗 𝚅𝚒𝚍𝚎𝚘𝚜 𝙵𝚘𝚛 𝙺𝚒𝚍𝚜</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/abc123" title="Video 1" allowfullscreen></iframe>
+                </div>
+                <p><a href="https://youtu.be/e_04ZrNroTo?si=KJpiE8Fw0-w31uWF" target="_blank">𝚆𝚊𝚝𝚌𝚑 𝚟𝚒𝚍𝚎𝚘 1</a></p>
+            </div>
+            <div class="col">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/def456" title="Video 2" allowfullscreen></iframe>
+                </div>
+                <p><a href="https://youtu.be/OMmGnUeW-4c?si=bSHOZIPuwkVhFPkY" target="_blank">𝚆𝚊𝚝𝚌𝚑 𝚟𝚒𝚍𝚎𝚘 2</a></p>
+            </div>
+            <div class="col">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/ghi789" title="Video 3" allowfullscreen></iframe>
+                </div>
+                <p><a href="https://youtu.be/N5YSbaUl9Y4?si=fMJZMFI0B-qaTFyn" target="_blank">𝚆𝚊𝚝𝚌𝚑 𝚟𝚒𝚍𝚎𝚘 3</a></p>
+            </div>
+        </div>
+    </div>
+    
+    
+</section>
+
+
+    <!-- About Section -->
+<section id="about" class="page" style="display:none;">
+    <div class="container my-5">
+        <h2 class="text-center mb-4">About Us</h2>
+        
+        <!-- Top Text -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <p>
+                    𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝖪𝗂𝖽 𝖥𝗋𝗂𝖾𝗇𝖽𝗅𝗒, 𝖺 𝗏𝗂𝖻𝗋𝖺𝗇𝗍 𝖺𝗇𝖽 𝗃𝗈𝗒𝖿𝗎𝗅 𝗈𝗇𝗅𝗂𝗇𝖾 𝗌𝗉𝖺𝖼𝖾 𝖽𝖾𝗌𝗂𝗀𝗇𝖾𝖽 𝗍𝗈 𝗌𝗉𝖺𝗋𝗄 𝗁𝖺𝗉𝗉𝗂𝗇𝖾𝗌𝗌 𝖺𝗇𝖽 𝖼𝗋𝖾𝖺𝗍𝗂𝗏𝗂𝗍𝗒 𝗂𝗇 𝖼𝗁𝗂𝗅𝖽𝗋𝖾𝗇! 𝖮𝗎𝗋 𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗂𝗌 𝗍𝗈 𝖼𝗋𝖾𝖺𝗍𝖾 𝖺 𝗌𝖺𝖿𝖾, 𝖼𝗈𝗅𝗈𝗋𝖿𝗎𝗅, 𝖺𝗇𝖽 𝖾𝗇𝗀𝖺𝗀𝗂𝗇𝗀 𝖾𝗇𝗏𝗂𝗋𝗈𝗇𝗆𝖾𝗇𝗍 𝗐𝗁𝖾𝗋𝖾 𝗄𝗂𝖽𝗌 𝖼𝖺𝗇 𝖾𝗑𝗉𝗅𝗈𝗋𝖾, 𝗅𝖾𝖺𝗋𝗇, 𝖺𝗇𝖽 𝗁𝖺𝗏𝖾 𝖿𝗎𝗇.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    𝖶𝗂𝗍𝗁 𝖼𝗁𝖾𝖾𝗋𝖿𝗎𝗅 𝗂𝗅𝗅𝗎𝗌𝗍𝗋𝖺𝗍𝗂𝗈𝗇𝗌, 𝗉𝗅𝖺𝗒𝖿𝗎𝗅 𝖼𝗁𝖺𝗋𝖺𝖼𝗍𝖾𝗋𝗌, 𝖺𝗇𝖽 𝗉𝗈𝗌𝗂𝗍𝗂𝗏𝖾 𝗏𝗂𝖻𝖾𝗌, 𝗐𝖾 𝖺𝗂𝗆 𝗍𝗈 𝗂𝗇𝗌𝗉𝗂𝗋𝖾 𝗌𝗆𝗂𝗅𝖾𝗌 𝖺𝗇𝖽 𝖼𝗎𝗋𝗂𝗈𝗌𝗂𝗍𝗒. 𝖶𝗁𝖾𝗍𝗁𝖾𝗋 𝗒𝗈𝗎'𝗋𝖾 𝗅𝗈𝗈𝗄𝗂𝗇𝗀 𝖿𝗈𝗋 𝖺𝖼𝗍𝗂𝗏𝗂𝗍𝗂𝖾𝗌, 𝖾𝖽𝗎𝖼𝖺𝗍𝗂𝗈𝗇𝖺𝗅 𝖼𝗈𝗇𝗍𝖾𝗇𝗍, 𝗈𝗋 𝖺 𝖽𝗈𝗌𝖾 𝗈𝖿 𝗌𝗎𝗇𝗌𝗁𝗂𝗇𝖾 𝗍𝗈 𝖻𝗋𝗂𝗀𝗁𝗍𝖾𝗇 𝗒𝗈𝗎𝗋 𝖼𝗁𝗂𝗅𝖽'𝗌 𝖽𝖺𝗒, 𝖪𝗂𝖽 𝖥𝗋𝗂𝖾𝗇𝖽𝗅𝗒 𝗂𝗌 𝗁𝖾𝗋𝖾 𝗍𝗈 𝖽𝖾𝗅𝗂𝗏𝖾𝗋.
+                </p>
+            </div>
+        </div>
+
+        <!-- Center Image -->
+        <div class="text-center">
+            <img src="./DALL·E 2024-11-09 04.53.44 - A vibrant and cheerful illustration for an 'About Us' section on a kid-friendly website. It features happy children of diverse backgrounds holding han.webp" alt="Our Story" class="img-fluid rounded-circle my-3" style="max-width: 300px;">
+        </div>
+
+        <!-- Bottom Text -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <p>
+                    𝖠𝗍 𝖪𝗂𝖽 𝖥𝗋𝗂𝖾𝗇𝖽𝗅𝗒, 𝗈𝗎𝗋 𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗂𝗌 𝗍𝗈 𝗆𝖺𝗄𝖾 𝖾𝗏𝖾𝗋𝗒 𝖼𝗁𝗂𝗅𝖽’𝗌 𝖽𝖺𝗒 𝖻𝗋𝗂𝗀𝗁𝗍𝖾𝗋. 𝖶𝖾 𝖺𝗂𝗆 𝗍𝗈 𝖿𝗈𝗌𝗍𝖾𝗋 𝖼𝗋𝖾𝖺𝗍𝗂𝗏𝗂𝗍𝗒, 𝖻𝗎𝗂𝗅𝖽 𝖼𝗈𝗇𝖿𝗂𝖽𝖾𝗇𝖼𝖾, 𝖺𝗇𝖽 𝗂𝗇𝗌𝗉𝗂𝗋𝖾 𝖺 𝗅𝗈𝗏𝖾 𝖿𝗈𝗋 𝗅𝖾𝖺𝗋𝗇𝗂𝗇𝗀—𝖺𝗅𝗅 𝗐𝗁𝗂𝗅𝖾 𝖾𝗇𝗌𝗎𝗋𝗂𝗇𝗀 𝗍𝗁𝖺𝗍 𝗄𝗂𝖽𝗌 𝖺𝗇𝖽 𝗍𝗁𝖾𝗂𝗋 𝖿𝖺𝗆𝗂𝗅𝗂𝖾𝗌 𝗁𝖺𝗏𝖾 𝖺 𝗀𝗋𝖾𝖺𝗍 𝗍𝗂𝗆𝖾.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    𝖮𝗎𝗋 𝗏𝗂𝗌𝗂𝗈𝗇 𝗂𝗌 𝗍𝗈 𝖻𝖾 𝖺 𝗀𝗅𝗈𝖻𝖺𝗅 𝗅𝖾𝖺𝖽𝖾𝗋 𝗂𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝗂𝗇𝗀 𝖾𝗇𝗀𝖺𝗀𝗂𝗇𝗀, 𝗂𝗇𝗇𝗈𝗏𝖺𝗍𝗂𝗏𝖾, 𝖺𝗇𝖽 𝖼𝗁𝗂𝗅𝖽-𝖿𝗋𝗂𝖾𝗇𝖽𝗅𝗒 𝖼𝗈𝗇𝗍𝖾𝗇𝗍 𝗍𝗁𝖺𝗍 𝗍𝗋𝖺𝗇𝗌𝖿𝗈𝗋𝗆𝗌 𝗁𝗈𝗐 𝗄𝗂𝖽𝗌 𝖺𝗇𝖽 𝖿𝖺𝗆𝗂𝗅𝗂𝖾𝗌 𝗂𝗇𝗍𝖾𝗋𝖺𝖼𝗍 𝗈𝗇𝗅𝗂𝗇𝖾. 𝖶𝖾 𝖾𝗇𝗏𝗂𝗌𝗂𝗈𝗇 𝖺 𝗐𝗈𝗋𝗅𝖽 𝗐𝗁𝖾𝗋𝖾 𝖾𝗏𝖾𝗋𝗒 𝖼𝗁𝗂𝗅𝖽 𝖿𝖾𝖾𝗅𝗌 𝗏𝖺𝗅𝗎𝖾𝖽, 𝖾𝗆𝗉𝗈𝗐𝖾𝗋𝖾𝖽, 𝖺𝗇𝖽 𝗂𝗇𝗌𝗉𝗂𝗋𝖾𝖽 𝗍𝗈 𝖾𝗑𝗉𝗅𝗈𝗋𝖾 𝗍𝗁𝖾𝗂𝗋 𝗅𝗂𝗆𝗂𝗍𝗅𝖾𝗌𝗌 𝗉𝗈𝗍𝖾𝗇𝗍𝗂𝖺𝗅 𝗂𝗇 𝖺 𝗌𝖺𝖿𝖾 𝖺𝗇𝖽 𝖾𝗇𝗋𝗂𝖼𝗁𝗂𝗇𝗀 𝗌𝗉𝖺𝖼𝖾. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Contact Us Section -->
+<section id="contact" class="page" style="display: none;">
+    <div class="contact-container">
+        <div class="contact-image" style="flex: 1; background-image: url('./DALL·E\ 2024-11-09\ 10.40.51\ -\ A\ cheerful\,\ animated-style\ illustration\ of\ two\ kids\,\ one\ with\ light\ skin\ and\ one\ with\ dark\ skin\,\ standing\ together\,\ smiling\ and\ looking\ at\ the\ camera\ .webp'); background-size: cover; background-position: center; height: 100%; min-height: 630px;">
+        </div>
+
+        <!-- Right Form Section -->
+        <div class="contact-form-section">
+            <h2>Contact Us</h2>
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" class="btn-submit">Contact Us</button>
+                </div>
+            </form>
+            <div class="contact-info">
+                <p><strong>Contact:</strong> kidfriendly@gmail.com</p>
+            </div>
+            <div class="social-icons">
+                <img src="./facebook-new.png" alt="Facebook">
+                <img src="./instagram icon.jpg" alt="Instagram">
+                <img src="./twitter icon.png" alt="Twitter">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
